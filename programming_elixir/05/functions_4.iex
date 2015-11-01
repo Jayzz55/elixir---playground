@@ -1,0 +1,5 @@
+prefix = fn title -> fn name -> "#{title} #{name}" end end
+
+IO.inspect mrs = prefix.("Mrs")
+IO.inspect mrs.("Smith")
+IO.inspect prefix.("Elixir").("Rocks")
